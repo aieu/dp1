@@ -1,17 +1,18 @@
+# Distributed Programming I
+
 ### Contents
 
 This project is a simple cliente/server solution for downloading files.
 
-```
-    tools/     ---> contains software utilities that are used by the testing script
-    source/    ---> the sources of your solutions
-        source/client1 ---> the client
-        source/server1 ---> the sequential server
-        source/server2 ---> the concurrent server
-    test.sh    ---> the script that executes tests on Server1
-    test2.sh   ---> the script that executes tests on Server2
-    README.md  ---> this file
-```
+- `tools/` contains software utilities that are used by the testing script
+- `source/` the sources of your solutions
+  - `client1` the client
+  - `server1` the sequential server
+  - `server2` the concurrent server
+- `test.sh` the script that executes tests on Server1
+- `test2.sh` the script that executes tests on Server2
+- `README.md` this file
+
 In order to launch the tests, use the following command:
 
 ```sh
